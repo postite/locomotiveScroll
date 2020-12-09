@@ -1,0 +1,5 @@
+
+-cp extern
+-cp src
+-main Main
+--js www/loco.js
