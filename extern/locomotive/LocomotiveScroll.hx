@@ -117,7 +117,7 @@ public function new(?options:ScrollOptions):Void;
 
 public function init():Void;//	Reinitializes the scroll.	
 
-@:overload(function(eventName:ScrollEvent, cb:ScrollData->String->Void):Void { })
+@:overload(function(eventName:ScrollEvent, cb:String->String->Void):Void { })
 public function on(eventName:ScrollEvent, cb:ScrollData->Void):Void;//, function)	Listen instance events ⬇.	
 public function update():Void;//	Updates all element positions.	
 public function destroy():Void;//	Destroys the scroll events.	
