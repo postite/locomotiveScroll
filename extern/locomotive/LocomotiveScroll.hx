@@ -110,6 +110,7 @@ var scroll;
 var call;
 }
 
+@:native('')
 extern class LocomotiveScroll{
 
 public function new(?options:ScrollOptions):Void;
