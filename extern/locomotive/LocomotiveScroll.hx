@@ -32,7 +32,7 @@ typedef Scroll = ScrollOptions & {
 
 	// //todo ...
 	els:Array<Dynamic>, //object array access but begin by 1 ???
-	currentElements:Map<Int,Dynamic>,//object array access but begin by 1 ???
+	currentElements:Array<Dynamic>,//object array access but begin by 1 ???
 	listeners:Dynamic,
 	intance:Dynamic,
 }

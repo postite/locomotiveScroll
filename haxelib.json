@@ -4,7 +4,7 @@
     "license": "MIT",
     "tags": ["js", "scrolling"],
     "description": "externs for locomotiveScroill Library https://github.com/locomotivemtl/locomotive-scroll",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "classPath": "extern/",
     "releasenote": "Initial release, everything is working correctly.",
     "contributors": ["postite"]
