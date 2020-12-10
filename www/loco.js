@@ -7,7 +7,7 @@ Main.main = function() {
 	locomotive_LocoTools.assignScroll(window.document.getElementById("two"));
 	locomotive_LocoTools.assignScrollCall(window.document.getElementById("two"),"twop");
 	locomotive_LocoTools.assignScrollRepeat(window.document.getElementById("two"));
-	var loco = new locomotive.LocomotiveScroll({ el : window.document.querySelector("[data-scroll-container]"), smooth : true});
+	var loco = new LocomotiveScroll({ el : window.document.querySelector("[data-scroll-container]"), smooth : true});
 	loco.on("call",function(func,status) {
 		console.log("src/Main.hx:23:",func);
 		console.log("src/Main.hx:24:",status);
