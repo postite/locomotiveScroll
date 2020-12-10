@@ -31,8 +31,8 @@ typedef Scroll = ScrollOptions & {
 	windowMiddle:Point,
 
 	// //todo ...
-	els:Array<Dynamic>,
-	currentElements:Array<Dynamic>,
+	els:Array<Dynamic>, //object array access but begin by 1 ???
+	currentElements:Map<Int,Dynamic>,//object array access but begin by 1 ???
 	listeners:Dynamic,
 	intance:Dynamic,
 }
